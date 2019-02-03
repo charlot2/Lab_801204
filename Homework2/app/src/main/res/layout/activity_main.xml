@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg"
+                android:scaleType="centerCrop"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e9e1de"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e7cccb"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/three"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#77839a"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/four"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#9ca9bd"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/five"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#c4ccd4"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/six"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#dee2e5"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        </LinearLayout>
+    <TextView
+        android:id="@+id/box"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#e9e1de"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:text="233-225-222"
+        android:gravity="center"/>
+    <TextView
+        android:layout_below="@+id/box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="//RGB"
+        android:layout_alignLeft="@+id/box"/>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
